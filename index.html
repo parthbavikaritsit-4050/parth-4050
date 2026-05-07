@@ -3,157 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookShelf</title>
-<style>
-    div.navbar{
-    background-color:rgb(165,155,154);
-    width: calc(100vw - 0px);
-    height: 30px;
-    color:white;
-    display: flex;
-    align-items: center; /* Vertically centers content */
-    
-}
-
-div.main{
-  width: calc(100vw - 50px);
-  height: 350px; /* keeps 2:3 ratio */
-  border-radius: 6px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  overflow: hidden;
-  display:flex;
-  margin:30px;
-  
-
-}
-
-.main img {
-  width: 100%;
-  height: 100%;
-}
-
-div.poster{
-  width: calc(100vw - 50px);
-  height: 400px; /* keeps 2:3 ratio */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-  display:flex;
-  overflow: auto;
-  margin:30px;
-  padding: 50px;
-
- 
-}
-
-.poster img {
-  width: 200px;
-  height: 300px;
-  object-fit: cover;
-  margin-left: 20px;
-  border: 1px solid #090909;
-}
-
-
-div.footer{
-    background-color:rgb(225,215,213);
-    width: calc(100vw - 0px);
-    height: 250px;
-    color:white;
-    margin-top:100px ;
-    padding: 10px;
-    Color:black;
-    
-}
-
-
-</style>
+    <title>Parth Bavikar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div>
     <div class="navbar">
-        <a href="assets/Register.html" style="color:white;"><h5 style="margin: 25px;">Register</h5></a>
-        <a href="assets/Groups.html" style="color:white;"><h5 style="margin: 25px;">Groups</h5></a>
-        <a href="assets/Explore.html" style="color:white;"><h5 style="margin: 25px;">Explore</h5></a>
 
+        <span><h3>Parth Bavikar</h3></span>
+        
+        <span>
+        <a href="#aboutme">About</a>
+        <a href="">Experince</a>
+        <a href="">Projects</a>
+        <a href="">Skils</a>
+        <a href="">Contact</a>
+        </span>
+        
+    </div>
+<div class="container">
+    <div class="landing" id="landing">
+       <div></div>
+        
+       <div><center>
+        <h1>Hi, I'm <span class="highlight">Parth Bavikar</span></h1>
+        <h6>Subject Matter Expert | JAVA & MERN FSD Instructor | Devops Engg</h6>
+        <button>See My Work</button>
+        </center></div>
+       
+        <div></div>
+    </div>
+
+    <div class="headings"><h1>About Me</h1></div>
+
+    <div class="aboutme" id="aboutme" > 
+        <div class="banner"><img src="images/profile.jpg" alt=""></div>
+         <div class="text">
+
+          <p>Hello! I'm a motivated and detail-oriented engineering student currently 
+            in my third year at SIT, Lonavala. I am passionate about Full Stack Development and actively 
+            learning Java FSD and the MERN stack.
+             I enjoy building clean, responsive, 
+             and user-friendly websites, and I’m continuously improving my skills in modern web technologies.</p>
+
+            <table ><li><b>Location: </b> Pune</li><li><b>Email: </b>parthbavikar.it.sit@gmail.com</li>
+             <li><b>Education: </b>B.E.in Information Technology</li></table> 
+        </div>
     </div>
 
    
- 
-   <div class="main">
-    <img src="assets/images/bookshelf.jpg"><img>
-    <img src="assets/images/bookshelf.jpg"><img>
-    <img src="assets/images/bookshelf.jpg"><img>
+    <div class="headings"><h1>Projects</h1></div>
+
+    <div class="projects">
+        <div class="card">
+             <img src="images/libmany-old-books-bookshelf-library_129479-5503.avif" alt="">
+            <center><h3>Bookshelf</h3></center>
+            <p>A simple Bookshelf web app  built using HTML and CSS, featuring a responsive layout to display books with cover, title, and author. Designed with modern styling, grid/flexbox, and clean UI for an organized bookshelf look.
+            </p>
+            <center><button>Live Demo</button></center>
+        </div>
+
+        <div class="card">
+             <img src="images/cricket.jpg" alt="">
+            <center><h3>Bookshelf</h3></center>
+            <p>A simple Bookshelf web app  built using HTML and CSS, featuring a responsive layout to display books with cover, title, and author. Designed with modern styling, grid/flexbox, and clean UI for an organized bookshelf look.
+            </p>
+            <center><button>Live Demo</button></center>
+        </div>
+
+
+        <div class="card">
+             <img src="images/portfolio.PNG" alt="">
+            <center><h3>Portfolio</h3></center>
+            <p>A responsive Portfolio website built using HTML and CSS, showcasing personal details, projects, and skills with a clean and modern UI. Designed using Flexbox/Grid for smooth layout and better user experience across all devices.
+            </p>
+            <center><button>Live Demo</button></center>
+        </div>
         
-</div>
-
-   <h2>My Books</h2> 
-
-   <div class="poster">
-    
-     <a href="https://www.flipkart.com/search?q=rework+book" target="_blank">
-<img src="assets/images/rework.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=do+epic+shit+ankur+warikoo" target="_blank">
-<img src="assets/images/doepicshit.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=deep+work+cal+newport" target="_blank">
-<img src="assets/images/deepwork.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=rich+dad+poor+dad" target="_blank">
-<img src="assets/images/richdadapoordad.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=atomic+habits+james+clear" target="_blank">
-<img src="assets/images/atomic habits.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=subtle+art+of+not+giving+a+fck" target="_blank">
-<img src="assets/images/notgivingfck.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=start+with+why+simon+sinek" target="_blank">
-<img src="assets/images/start.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=rework+book" target="_blank">
-<img src="assets/images/rework.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=do+epic+shit+ankur+warikoo" target="_blank">
-<img src="assets/images/doepicshit.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=deep+work+cal+newport" target="_blank">
-<img src="assets/images/deepwork.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=rich+dad+poor+dad" target="_blank">
-<img src="assets/images/richdadapoordad.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=atomic+habits+james+clear" target="_blank">
-<img src="assets/images/atomic habits.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=subtle+art+of+not+giving+a+fck" target="_blank">
-<img src="assets/images/notgivingfck.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
-
-<a href="https://www.flipkart.com/search?q=start+with+why+simon+sinek" target="_blank">
-<img src="assets/images/start.jpg" style="margin-left: 40px; border: 1px solid #090909;"></img>
-</a>
     </div>
 
-    <div class="footer">
-    <center style="margin-top:20px"><h2 >Visit US</h2> <br>
-    <a href="https://en.wikipedia.org/wiki/Reading" target="_blank"><img src="assets/images/wiki.png
-        " alt="" style="margin: 30px;width: 50px;height: 50px;"></a>
-<a href="https://www.instagram.com/?hl=en" target="_blank"><img src="assets/images/insta.jpg" alt="" style="margin: 30px;width: 50px;height: 50px;"></a>
-    <a href="https://www.facebook.com/" target="_blank"><img src="assets/images/fb.avif" alt="" style="margin: 30px;width: 50px;height: 50px;"></a><br>
-<p>&copy; 2026 Bookshelf.com. All rights reserved.</p> </center>
+    <div class="headings"><h1>Education</h1></div>
+
+
+    <div class="Education">
+        
+        <div class="card">
+            <img src="images/gpplogo.png" alt="">
+            <section>
+            <h2>Diploma in Computer Engineering</h2>
+            <h3>Government Polytechnic Pune</h3>
+            <h4>Passout:2024</h4></section>
+        </div>
+
+
+        <div class="card">
+            <img src="images/sitlogo.png" alt="">
+            <section>
+            <h2>Information Technology Engineer</h2>
+            <h3>Sinhagad Institutes Lonavala</h3>
+            <h4>Passout:2027</h4></section>
+        </div>
+
+        
+    </div>
+  
+    <div class="headings"><h1>My Skills</h1></div>
+
+    <div class="myskills">
+        <div></div>
+        <div>
+            <center>
+            <section class="circle"><h3>HTML</h3></section>
+            <section class="circle"><h3>CSS</h3></section>
+            <section class="circle"><h3>SQL</h3></section>
+            <section class="circle"><h3>MERN</h3></section></center>
+        </div>
+        <div></div>
+
+        <div></div>
+        <div>
+            <center>
+            <section class="circle"><h3>JAVA</h3></section>
+            <section class="circle"><h3>PYTHON</h3></section>
+            <section class="circle"><h3>GIT</h3></section>
+            <section class="circle"><h3>CPP</h3></section></center>
+        </div>
+        <div></div>
+
+    </div>
+   
+<div class="headings"><h1>Certificates & Achivements</h1></div>
+
+<div class="certificates">
+    <div class="card">
+        <center>
+        <h2>Google UX Design Certificate</h2>
+        <p>Completed in 2024</p>
+        <p>Certified</p></center>
+    </div>
+    
+    <div class="card">
+        <center>
+        <h2>AWS Cloud Practitioner Certificate</h2>
+        <p>Completed in 2023</p>
+        <p>Awarded</p></center>
+    </div>
+
+    <div class="card">
+        <center>
+        <h2>Winner of Hackathon 2024</h2>
+        <p>1st Place - Web Development Challenge</p>
+        <p>Certified</p>
+        </center>
+    </div>
+
 </div>
+
+<div class="headings"><h1>Fun & Personal Intrests</h1></div>
+
+<div class="fun">
+
+    <div class="card">
+        <center>
+         <img src="images/blue.jpg" alt="" style="height: 100px;width: 100px;">   
+        <h2>Traveling</h2>
+        <p>Exploring new places, cultures, and cuisines.</p></center>
+
+    </div>
+    <div class="card">
+        <center>
+        <img src="images/yellocirclr.avif" alt="" style="height: 100px;width: 100px;">
+        <h2>Gaming</h2>
+        <p>Passionate about strategy and RPG games.</p></center>
+    </div>
+
+    <div class="card">
+    <center>
+     <img src="images/skyblue.png" alt="" style="height: 100px;width: 100px;">   
+    <h2>Reading</h2>
+    <p>Love reading tech blogs and mystery novels</p></center></div>
+
+</div>
+
+<div class="headings"><h1>Contact Me</h1></div>
+
+<div class="contact">
+
+<div class="info">
+    <h2>Get in Touch</h2>
+    <p>parthbavikar.it.sit@email.com</p>
+     <p>+91 9876543210</p>
+     <p>Pune, Maharashtra, India</p>
+     <button class="blue">Linkedin</button>
+     <button class="black">Github</button>
+     <button class="skyblue">Twitter</button>
+</div>
+<div class="form">
+    Full name<br>
+    <input type="text" value="Your Name" id=""><br>
+
+    Email<br>
+    <input type="text" value="Your Email" id=""><br>
+
+    Subject<br>
+    <input type="text" value="Your Subject" id=""><br>
+
+    Message<br>
+    <textarea name="" id="" values="Your Message" >Your Message</textarea><br>
+
+    <button class="blue">Send Meassage</button>
+</div>
+
+
+
+</div>
+
+    <div class="footer">
+        <p>&copy; All rights reserved</p>
+    </div>
+
+
+
+
+</div>      
 </body>
 </html>
